@@ -12,9 +12,9 @@ public class AppJavaBased {
 
 //		Student student = new Student();
 		Student student = context.getBean("getStudent", Student.class);
-		student.setId(1507004);
-		student.setName("Rafi");
-		student.setAddress("Dhaka");
+		student.setId(1507003);
+		student.setName("Sohana");
+		student.setAddress("Rajshahi");
 
 		int result = studentDao.insert(student);
 
