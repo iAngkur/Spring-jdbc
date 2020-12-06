@@ -9,7 +9,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.util.List;
 
-public class App {
+public class AppXMLBased {
 	public static void main(String[] args) {
 		ApplicationContext context = new ClassPathXmlApplicationContext("config.xml");
 /*		JdbcTemplate template = context.getBean("jdbcTemplate", JdbcTemplate.class);
